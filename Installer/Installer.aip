@@ -4,7 +4,7 @@
     <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
-    <ROW Property="ARPPRODUCTICON" Value="diskette_2874050.exe" Type="8"/>
+    <ROW Property="ARPPRODUCTICON" Value="favicon.exe" Type="8"/>
     <ROW Property="Manufacturer" Value="LumoRez"/>
     <ROW Property="ProductCode" Value="1033:{EB36E79D-97AA-463A-BE93-FD8C63770C3E} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
@@ -111,7 +111,7 @@
     <ROW Feature_="MainFeature" Component_="ProductInformation"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
-    <ROW Name="diskette_2874050.exe" SourcePath="..\..\..\diskette_2874050.ico" Index="0"/>
+    <ROW Name="favicon.exe" SourcePath="..\assets\favicon.ico" Index="0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
     <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
