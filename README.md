@@ -1,8 +1,5 @@
 # 🚀 QuickClip
 
-![GitHub Release](https://img.shields.io/github/v/release/LumoRez07/QuickClip)
-![GitHub Issues](https://img.shields.io/github/issues/LumoRez07/QuickClip)
-![License](https://img.shields.io/github/license/LumoRez07/QuickClip)
 
 
 A lightweight Windows clipboard manager with AI-powered tools — built for speed, simplicity, and productivity.
@@ -11,9 +8,9 @@ A lightweight Windows clipboard manager with AI-powered tools — built for spee
 
 ## 📸 Screenshots
 
-| Clipboard History | AI Integration | Settings |
+| Tray icon settings | AI Integration | Settings |
 |-------------------|----------------|-----------|
-| ![History](assets/screenshot1.png) | ![AI](assets/screenshot2.png) | ![Settings](assets/screenshot3.png) |
+| ![TrayIcon](assets/screenshot1.png) | ![AI](assets/screenshot2.png) | ![Settings](assets/screenshot3.png) |
 
 ---
 
