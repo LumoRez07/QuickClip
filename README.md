@@ -4,7 +4,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/LumoRez07/QuickClip/total?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/LumoRez07/QuickClip?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/LumoRez07/QuickClip?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/LumoRez07/QuickClip?style=for-the-badge)
 
 A lightweight Windows clipboard manager with AI-powered tools — built for speed, simplicity, and productivity.
 
