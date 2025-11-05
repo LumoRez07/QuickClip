@@ -74,3 +74,16 @@ For feedback or bug reports, open an [issue](https://github.com/LumoRez07/QuickC
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
+
+---
+
+## A Note from the Developer
+<p align="center">
+
+I'm a new developer, and this project is an important part of my learning journey.
+
+While the MIT license gives you the freedom to use this code, I would be very grateful if you could provide attribution by linking back to this repository. Seeing my work being used and acknowledged is a huge motivation for me.
+
+Thank you for your support!
+  </p>
