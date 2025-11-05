@@ -1,18 +1,53 @@
-# 🚀 QuickClip
+<p align="center">
+  <img src="assets/logo.png" alt="QuickClip Logo" width="150"/>
+</p>
+<h1 align="center">QuickClip</h1>
 
 
-A lightweight Windows clipboard manager with AI-powered tools — built for speed, simplicity, and productivity.
+<p align="center">
+  <strong>A lightweight Windows clipboard manager with AI-powered tools — built for speed, simplicity, and productivity.</strong>
+</p>
 
+
+<div align="center">
+  
+[![GitHub stars](https://img.shields.io/github/stars/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/stargazers) [![GitHub issues](https://img.shields.io/github/issues/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/issues) [![GitHub forks](https://img.shields.io/github/forks/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/network/members)  [![GitHub downloads](https://img.shields.io/github/downloads/LumoRez07/QuickClip/total?style=flat-square)](https://github.com/LumoRez07/QuickClip/releases)
+
+</div>
+
+<div align="center">
+  <a href="#-screenshots">Screenshots</a>
+  ·
+  <a href="#-features">Features</a>
+  ·
+  <a href="#%EF%B8%8F-how-to-use">How to Use</a>
+  ·
+  <a href="#%EF%B8%8F-hotkeys">Hotkeys</a>
+  ·
+  <a href="#-installation">Installation</a>
+  ·
+  <a href="#-tech-stack">Tech Stack</a>
+  ·
+  <a href="#-about">About</a>
+  ·
+  <a href="#-license">License</a>
+</div>
 
 ---
 
 ## 📸 Screenshots
 
+<div align="center">
+
 | Tray icon settings | AI Integration | Settings |
-|-------------------|----------------|-----------|
+|:------------------:|:--------------:|:----------:|
 | ![TrayIcon](assets/screenshot1.png) | ![AI](assets/screenshot2.png) | ![Settings](assets/screenshot3.png) |
 
+</div>
+
 ---
+
+
 
 ## 🧠 Features
 
