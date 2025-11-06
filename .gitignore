@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ignore advanced installer files
+*.aiproj
+*.aip
+*.aix
+*.aivc
+# ignore advanced installer build output

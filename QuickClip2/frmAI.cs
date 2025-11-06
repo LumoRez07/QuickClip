@@ -184,5 +184,32 @@ namespace QuickClip
         private void labelapikey_Click(object sender, EventArgs e) { }
         private void txtboxapikey_TextChanged(object sender, EventArgs e) { }
         private void txtCustomPrompt_TextChanged(object sender, EventArgs e) { }
+
+        private void frmAI_Load(object sender, EventArgs e)
+        {
+            copytoclipboardcustompromptcheckbox.Checked = Properties.Settings.Default.CopyToClipboardCustomprompt;
+            copytoclipboardgrammarcheckbox.Checked = Properties.Settings.Default.CopyToClipboardGrammar;
+            copytoclipboardsummarizecheckbox.Checked = Properties.Settings.Default.CopyToClipboardSummarize;
+        }
+
+        private void copytoclipboardsummarizecheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.CopyToClipboardSummarize = copytoclipboardsummarizecheckbox.Checked;
+        }
+
+        private void copytoclipboardcustompromptcheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.CopyToClipboardCustomprompt = copytoclipboardcustompromptcheckbox.Checked;
+        }
+
+        private void copytoclipboardgrammarcheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.CopyToClipboardGrammar = copytoclipboardgrammarcheckbox.Checked;
+        }
+
+        private void custompromptlabeltext_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -48,6 +48,11 @@
             setkeycustomprompt = new Button();
             setapikey = new Button();
             txtCustomPrompt = new TextBox();
+            copytoclipboardcustompromptcheckbox = new CheckBox();
+            copytoclipboardgrammarcheckbox = new CheckBox();
+            copytoclipboardsummarizecheckbox = new CheckBox();
+            label1 = new Label();
+            custompromptlabeltext = new Label();
             SuspendLayout();
             // 
             // labelgrammar
@@ -191,7 +196,7 @@
             // 
             // browsecustomprompt
             // 
-            browsecustomprompt.Location = new Point(38, 243);
+            browsecustomprompt.Location = new Point(38, 258);
             browsecustomprompt.Name = "browsecustomprompt";
             browsecustomprompt.Size = new Size(75, 23);
             browsecustomprompt.TabIndex = 15;
@@ -201,7 +206,7 @@
             // 
             // setkeycustomprompt
             // 
-            setkeycustomprompt.Location = new Point(119, 243);
+            setkeycustomprompt.Location = new Point(119, 258);
             setkeycustomprompt.Name = "setkeycustomprompt";
             setkeycustomprompt.Size = new Size(75, 23);
             setkeycustomprompt.TabIndex = 16;
@@ -222,7 +227,7 @@
             // 
             // txtCustomPrompt
             // 
-            txtCustomPrompt.Location = new Point(24, 214);
+            txtCustomPrompt.Location = new Point(24, 229);
             txtCustomPrompt.Multiline = true;
             txtCustomPrompt.Name = "txtCustomPrompt";
             txtCustomPrompt.Size = new Size(191, 23);
@@ -230,11 +235,68 @@
             txtCustomPrompt.Text = "Custom prompt goes here...";
             txtCustomPrompt.TextChanged += txtCustomPrompt_TextChanged;
             // 
+            // copytoclipboardcustompromptcheckbox
+            // 
+            copytoclipboardcustompromptcheckbox.AutoSize = true;
+            copytoclipboardcustompromptcheckbox.Location = new Point(339, 246);
+            copytoclipboardcustompromptcheckbox.Name = "copytoclipboardcustompromptcheckbox";
+            copytoclipboardcustompromptcheckbox.Size = new Size(111, 19);
+            copytoclipboardcustompromptcheckbox.TabIndex = 19;
+            copytoclipboardcustompromptcheckbox.Text = "Custom prompt";
+            copytoclipboardcustompromptcheckbox.UseVisualStyleBackColor = true;
+            copytoclipboardcustompromptcheckbox.CheckedChanged += copytoclipboardcustompromptcheckbox_CheckedChanged;
+            // 
+            // copytoclipboardgrammarcheckbox
+            // 
+            copytoclipboardgrammarcheckbox.AutoSize = true;
+            copytoclipboardgrammarcheckbox.Location = new Point(248, 271);
+            copytoclipboardgrammarcheckbox.Name = "copytoclipboardgrammarcheckbox";
+            copytoclipboardgrammarcheckbox.Size = new Size(76, 19);
+            copytoclipboardgrammarcheckbox.TabIndex = 20;
+            copytoclipboardgrammarcheckbox.Text = "Grammar";
+            copytoclipboardgrammarcheckbox.UseVisualStyleBackColor = true;
+            copytoclipboardgrammarcheckbox.CheckedChanged += copytoclipboardgrammarcheckbox_CheckedChanged;
+            // 
+            // copytoclipboardsummarizecheckbox
+            // 
+            copytoclipboardsummarizecheckbox.AutoSize = true;
+            copytoclipboardsummarizecheckbox.Location = new Point(248, 246);
+            copytoclipboardsummarizecheckbox.Name = "copytoclipboardsummarizecheckbox";
+            copytoclipboardsummarizecheckbox.Size = new Size(85, 19);
+            copytoclipboardsummarizecheckbox.TabIndex = 21;
+            copytoclipboardsummarizecheckbox.Text = "Summarize";
+            copytoclipboardsummarizecheckbox.UseVisualStyleBackColor = true;
+            copytoclipboardsummarizecheckbox.CheckedChanged += copytoclipboardsummarizecheckbox_CheckedChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(262, 222);
+            label1.Name = "label1";
+            label1.Size = new Size(155, 15);
+            label1.TabIndex = 22;
+            label1.Text = "Copy new text to clipboard :";
+            // 
+            // custompromptlabeltext
+            // 
+            custompromptlabeltext.AutoSize = true;
+            custompromptlabeltext.Location = new Point(24, 211);
+            custompromptlabeltext.Name = "custompromptlabeltext";
+            custompromptlabeltext.Size = new Size(98, 15);
+            custompromptlabeltext.TabIndex = 23;
+            custompromptlabeltext.Text = "Custom prompt :";
+            custompromptlabeltext.Click += custompromptlabeltext_Click;
+            // 
             // frmAI
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(466, 268);
+            ClientSize = new Size(474, 301);
+            Controls.Add(custompromptlabeltext);
+            Controls.Add(label1);
+            Controls.Add(copytoclipboardsummarizecheckbox);
+            Controls.Add(copytoclipboardgrammarcheckbox);
+            Controls.Add(copytoclipboardcustompromptcheckbox);
             Controls.Add(txtCustomPrompt);
             Controls.Add(setapikey);
             Controls.Add(setkeycustomprompt);
@@ -260,6 +322,7 @@
             Name = "frmAI";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "QuickClip - AI integration";
+            Load += frmAI_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -285,5 +348,10 @@
         private Button setkeycustomprompt;
         private Button setapikey;
         private TextBox txtCustomPrompt;
+        private CheckBox copytoclipboardcustompromptcheckbox;
+        private CheckBox copytoclipboardgrammarcheckbox;
+        private CheckBox copytoclipboardsummarizecheckbox;
+        private Label label1;
+        private Label custompromptlabeltext;
     }
 }

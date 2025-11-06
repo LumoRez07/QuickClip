@@ -166,5 +166,41 @@ namespace QuickClip.Properties {
                 this["CustomPrompt"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CopyToClipboardGrammar {
+            get {
+                return ((bool)(this["CopyToClipboardGrammar"]));
+            }
+            set {
+                this["CopyToClipboardGrammar"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CopyToClipboardSummarize {
+            get {
+                return ((bool)(this["CopyToClipboardSummarize"]));
+            }
+            set {
+                this["CopyToClipboardSummarize"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CopyToClipboardCustomprompt {
+            get {
+                return ((bool)(this["CopyToClipboardCustomprompt"]));
+            }
+            set {
+                this["CopyToClipboardCustomprompt"] = value;
+            }
+        }
     }
 }

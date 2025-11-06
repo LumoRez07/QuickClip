@@ -333,6 +333,9 @@ namespace QuickClip2
                     return;
                 }
 
+                bool copyToClipboardgrammar = QuickClip.Properties.Settings.Default.CopyToClipboardGrammar;
+                bool copyToClipboardsummarize = QuickClip.Properties.Settings.Default.CopyToClipboardSummarize;
+                bool copyToClipboardcustomprompt = QuickClip.Properties.Settings.Default.CopyToClipboardCustomprompt;
                 string input = Clipboard.GetText();
                 string apiKey = QuickClip.Properties.Settings.Default.ApiKey;
                 string customPrompt = QuickClip.Properties.Settings.Default.CustomPrompt;
@@ -349,7 +352,19 @@ namespace QuickClip2
 
                 string savedFile = await GeminiHelper.ProcessWithGemini(mode, input, apiKey, customPrompt, outputFolder);
 
-                trayIcon.ShowBalloonTip(3000, "QuickClip AI", $"{mode} completed!\nSaved to: {savedFile}", ToolTipIcon.Info);
+                if (mode == "grammar" && copyToClipboardgrammar ||
+                    mode == "summarize" && copyToClipboardsummarize ||
+                    mode == "customprompt" && copyToClipboardcustomprompt)
+                {
+                    string resultText = File.ReadAllText(savedFile);
+                    Clipboard.SetText(resultText);
+                    trayIcon.ShowBalloonTip(3000, "QuickClip AI", $"Processed text saved to {savedFile} and copied to clipboard.", ToolTipIcon.Info);
+                }
+                else
+                {
+                    trayIcon.ShowBalloonTip(3000, "QuickClip AI", $"Processed text saved to {savedFile}.", ToolTipIcon.Info);
+                }
+
             }
             catch (Exception ex)
             {
