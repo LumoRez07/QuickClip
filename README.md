@@ -53,8 +53,9 @@
 
 - 📋 Save any text or image you copy anywhere on your system with a customizable hotkey  
 - ⚡ Fully configurable hotkeys to access features instantly — no need to open the GUI  
-- 🤖 Built-in AI assistant (Gemini integration)  
-- 💾 Save and organize snippets, text, and images  
+- 🤖 Built-in AI assistant (Gemini integration) with the ability to copy
+results directly to your clipboard
+- 💾 Save and organize snippets, text, and images
 - 🧩 Lightweight — uses almost **0% system resources**
 
 ---
@@ -70,6 +71,8 @@
    - Click the **AI Integration** button  
    - Configure hotkeys for each AI feature and choose where to save results  
    - (You can use one shared folder or separate folders for each tool)
+   - Set your Copy to clipboard preferences by checking the boxes in the AI Integration menu.
+   - By doing so, the AI-generated content will be automatically copied to your clipboard after processing.
 5. Go to **Google AI Studio → Dashboard → API Keys**  
    - Create a new key and paste it into the textbox in QuickClip  
 6. Add any **custom prompt** you want in the "Custom Prompt" section — then you’re ready to go!
@@ -85,7 +88,7 @@
 ## 📦 Installation
 
 1. Download the latest release from [Releases](https://github.com/LumoRez07/QuickClip/releases)  
-2. Run the installer `QuickClip.msi` and choose any location  
+2. Run the installer `QuickClip vX.X.X.msi` and choose any location  
 3. Launch `QuickClip.exe` from your chosen folder
 
 ---
