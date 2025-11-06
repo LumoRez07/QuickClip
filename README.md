@@ -11,7 +11,9 @@
 
 <div align="center">
   
-[![GitHub stars](https://img.shields.io/github/stars/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/stargazers) [![GitHub issues](https://img.shields.io/github/issues/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/issues) [![GitHub forks](https://img.shields.io/github/forks/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/stargazers) [![GitHub issues](https://img.shields.io/github/issues/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/issues) [![GitHub forks](https://img.shields.io/github/forks/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/network/members) <br><a href="https://launchigniter.com/product/quickclip?ref=badge-quickclip" target="_blank">
+  <img src="https://launchigniter.com/api/badge/quickclip?theme=light" alt="Featured on LaunchIgniter" width="212" height="55" />
+</a>
 
 </div>
 
