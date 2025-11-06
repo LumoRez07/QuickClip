@@ -11,7 +11,7 @@
 
 <div align="center">
   
-[![GitHub stars](https://img.shields.io/github/stars/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/stargazers) [![GitHub issues](https://img.shields.io/github/issues/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/issues) [![GitHub forks](https://img.shields.io/github/forks/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/network/members)  [![GitHub downloads](https://img.shields.io/github/downloads/LumoRez07/QuickClip/total?style=flat-square)](https://github.com/LumoRez07/QuickClip/releases)
+[![GitHub stars](https://img.shields.io/github/stars/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/stargazers) [![GitHub issues](https://img.shields.io/github/issues/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/issues) [![GitHub forks](https://img.shields.io/github/forks/LumoRez07/QuickClip?style=flat-square)](https://github.com/LumoRez07/QuickClip/network/members)
 
 </div>
 
